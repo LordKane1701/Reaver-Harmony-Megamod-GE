@@ -910,7 +910,7 @@ armors:
     corpseBattle:
       - STR_CORPSE_HEAVY_ARMOR
     storeItem: STR_HEAVY_ARMOR
-    weight: 5
+    weight: -5
     stats:
       tu: -5
       bravery: 10
@@ -1044,9 +1044,9 @@ armors:
       - STR_CORPSE_ARMOR_ALLOY
     corpseGeo: STR_BROKEN_ARMOR_ALLOY
     storeItem: STR_PERSONAL_ARMOR_HEAVY
-    weight: 10
+    weight: -10
     stats:
-      tu: -10
+      tu: 10
       bravery: 20
     frontArmor: 120
     sideArmor: 105
@@ -1255,7 +1255,7 @@ armors:
       - STR_CORPSE_DARK_SUIT
     corpseGeo: STR_BROKEN_DARK_SUIT
     storeItem: STR_POWER_SUIT
-    weight: 30
+    weight: -30
     stats:
       tu: 10
       stamina: 10
@@ -1322,7 +1322,7 @@ armors:
       - STR_CORPSE_SUIT
     corpseGeo: STR_BROKEN_SUIT
     storeItem: STR_FLYING_SUIT
-    weight: 25
+    weight: -25
     stats:
       tu: 10
       firing: 10
@@ -1390,7 +1390,7 @@ armors:
       - STR_CORPSE_SUIT_PSI1
     corpseGeo: STR_BROKEN_SUIT_PSI1
     storeItem: STR_PSI_DEFENSE_ARMOR
-    weight: 30
+    weight: -30
     stats:
       bravery: 20
       strength: 70
@@ -1457,7 +1457,7 @@ armors:
       - STR_CORPSE_SUIT_PSI2
     corpseGeo: STR_BROKEN_SUIT_PSI2
     storeItem: STR_PSI_ATTACK_ARMOR
-    weight: 25
+    weight: -25
     stats:
       bravery: 10
       strength: 55
@@ -1528,7 +1528,7 @@ armors:
       - STR_CORPSE_PALADIN_ARMOR
     corpseGeo: STR_BROKEN_PALADIN_ARMOR
     storeItem: STR_PALADIN_ARMOR
-    weight: 40
+    weight: -40
     stats:
       tu: -20
       health: 40
@@ -1601,7 +1601,7 @@ armors:
       - STR_CORPSE_ASSASSIN_ARMOR
     corpseGeo: STR_BROKEN_ASSASSIN_ARMOR
     storeItem: STR_ASSASSIN_ARMOR
-    weight: 20
+    weight: -20
     stats:
       tu: 20
       stamina: 40
@@ -2007,7 +2007,7 @@ armors:
       - STR_CORPSE_DARK_SUIT
     corpseGeo: STR_BROKEN_DARK_SUIT
     storeItem: STR_SPACESUIT
-    weight: 30
+    weight: -30
     stats:
       tu: 10
       stamina: 10
@@ -2074,7 +2074,7 @@ armors:
       - STR_CORPSE_SUIT
     corpseGeo: STR_BROKEN_SUIT
     storeItem: STR_SPACESUIT
-    weight: 25
+    weight: -25
     stats:
       tu: 10
       firing: 10
@@ -2142,7 +2142,7 @@ armors:
       - STR_CORPSE_SUIT_PSI1
     corpseGeo: STR_BROKEN_SUIT_PSI1
     storeItem: STR_SPACESUIT
-    weight: 30
+    weight: -30
     stats:
       bravery: 20
       strength: 130
@@ -2209,7 +2209,7 @@ armors:
       - STR_CORPSE_SUIT_PSI2
     corpseGeo: STR_BROKEN_SUIT_PSI2
     storeItem: STR_SPACESUIT
-    weight: 25
+    weight: -25
     stats:
       bravery: 10
       strength: 100
@@ -2280,7 +2280,7 @@ armors:
       - STR_CORPSE_PALADIN_ARMOR
     corpseGeo: STR_BROKEN_PALADIN_ARMOR
     storeItem: STR_SPACESUIT
-    weight: 40
+    weight: -40
     stats:
       tu: -20
       health: 40
@@ -2354,7 +2354,7 @@ armors:
       - STR_CORPSE_ASSASSIN_ARMOR
     corpseGeo: STR_BROKEN_ASSASSIN_ARMOR
     storeItem: STR_SPACESUIT
-    weight: 20
+    weight: -20
     stats:
       tu: 20
       stamina: 40

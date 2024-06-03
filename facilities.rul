@@ -141,6 +141,7 @@ facilities:
     removalTime: 2
     destroyedFacility: STR_SECURITY_ROOM_PLASMA_DESTROYED
   - type: STR_LIVING_QUARTERS
+    sickBayAbsoluteBonus: 0.25
     listOrder: 200
     spriteShape: 1
     spriteFacility: 18
@@ -242,6 +243,7 @@ facilities:
     removalTime: 3
     destroyedFacility: STR_LIVING_QUARTERS_LARGE_DESTROYED
   - type: STR_LABORATORY
+    sickBayAbsoluteBonus: 0.25
     listOrder: 300
     spriteShape: 1
     spriteFacility: 19
@@ -344,7 +346,7 @@ facilities:
     radarRange: 1800
     radarChance: 10
     sightRange: 2000
-    sightChance: 2
+    sightChance: 10
     mapName: XBASE_04
     buildOverFacilities:
       - STR_CORRIDOR
@@ -359,9 +361,8 @@ facilities:
     destroyedFacility: STR_SMALL_RADAR_SYSTEM_DESTROYED
   - type: STR_LARGE_RADAR_FACILITY
     listOrder: 610
-    spriteShape: 432
-    spriteFacility: 432
-    size: 2
+    spriteShape: 1 # 432
+    spriteFacility: 22 # 432
     buildCost: 1800000
     refundValue: 900000
     buildTime: 18
@@ -369,8 +370,8 @@ facilities:
     radarRange: 2800
     radarChance: 15
     sightRange: 3000
-    sightChance: 3
-    mapName: RBASE_44
+    sightChance: 15
+    mapName: XBASE_05
     buildOverFacilities:
       - STR_CORRIDOR
       - STR_CORRIDOR_NS
@@ -400,7 +401,7 @@ facilities:
     radarRange: 2100
     radarChance: 67
     sightRange: 2200
-    sightChance: 20
+    sightChance: 67
     buildCostItems:
       STR_PSIONIC_FEEDBACK_DEVICE:
         build: 6
@@ -439,7 +440,7 @@ facilities:
     radarRange: 3000
     radarChance: 100
     sightRange: 3100
-    sightChance: 30
+    sightChance: 90
     buildCostItems:
       STR_PSIONIC_FEEDBACK_DEVICE:
         build: 12
@@ -476,7 +477,7 @@ facilities:
     refundValue: 25000
     buildTime: 12
     monthlyCost: 5000
-    storage: 50
+    storage: 275 #50
     rightClickActionType: 7
     mapName: XBASE_07
     buildOverFacilities:
@@ -497,7 +498,7 @@ facilities:
     refundValue: 125000
     buildTime: 18
     monthlyCost: 25000
-    storage: 300
+    storage: 575 #300
     rightClickActionType: 7
     mapName: RBASE_16
     buildOverFacilities:
@@ -1248,11 +1249,11 @@ facilities:
       - STR_ALIENS_ONLY
     spriteShape: 744
     spriteFacility: 744
-    size: 2
+    size: 1
     refundValue: 225000
     buildTime: 13
     monthlyCost: 8000
-    mapName: RBASE_56
+    mapName: RBASE_01
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
     removalTime: 2
